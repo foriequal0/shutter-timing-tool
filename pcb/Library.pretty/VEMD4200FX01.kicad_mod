@@ -1,0 +1,83 @@
+(footprint "VEMD4200FX01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.04 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "60858f0e-dadc-4dd2-b598-12b133ffdb24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VEMD4200FX01"
+		(at 0 3.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7724ed5-83dd-4f1a-bd48-5ba02c2de007")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "349166b7-3b51-4ad8-bfb2-8a4658769be9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "698c51e3-c5e9-403b-959b-37e717b7d12b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.04 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04c00bf1-eddd-4181-98ee-582056e1b53b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -0.45)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c66c805-0142-42cb-a148-612e7ffa20a7")
+	)
+	(pad "2" smd rect
+		(at 0 0.8)
+		(size 0.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0afd4603-73af-47a1-aac3-c22e225f0f8e")
+	)
+	(embedded_fonts no)
+)
